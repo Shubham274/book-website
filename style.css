@@ -1,0 +1,663 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.text-left {
+  text-align: left;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*------Navbar---------------*/
+
+header {
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.logo i {
+  font-size: 2rem;
+  color: #fff;
+}
+.menu-link {
+  display: none;
+}
+
+.logo span {
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 25px;
+  text-transform: capitalize;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.author {
+  width: 58%;
+  color: #fff;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+}
+
+.author h6 {
+  font-size: 1rem;
+  letter-spacing: 5px;
+}
+
+.author h1 {
+  font-size: 4.7rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.author p {
+  padding-bottom: 2rem;
+}
+
+.btn-white {
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.book-img {
+  width: 42%;
+  padding-top: 1rem;
+}
+
+.book-img img {
+  width: 90%;
+}
+
+/*-------Author-----------*/
+.author-image {
+  flex-basis: 50%;
+}
+
+.author-image img {
+  width: 80%;
+  opacity: 0.8;
+  border-radius: 0.2rem;
+}
+
+.about-author {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.about-author h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-author p {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.5px;
+}
+
+.panel {
+  position: absolute;
+  top: 50px;
+  left: -135px;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 98px 37px 150px 75px;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/*---------Features--------------*/
+
+.feature-section {
+  padding: 0;
+}
+.cover {
+  position: relative;
+  background-image: url(./images/pexels-photo-452738.jpeg);
+  width: 100%;
+  height: 50vh;
+  background-position: -24rem -19rem;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 130px;
+  color: #fff;
+}
+
+.cover .content h1 {
+  font-family: "Patua One", cursive;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.cover .content p {
+  color: #e5e5e5;
+  font-size: 3vmin;
+}
+
+.box-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -115px;
+}
+
+.box {
+  position: relative;
+  width: 17rem;
+  height: 12rem;
+  border-radius: 10px;
+  box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+  margin: 1rem;
+  background-color: #fff;
+  padding-top: 2rem;
+}
+
+.box h1 {
+  font-size: 5rem;
+  color: #ff6347;
+}
+
+.box p {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.purchase h1 {
+  padding-top: 12rem;
+  font-family: "Lobster", cursive;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+.purchase p {
+  color: #2e2c2caf;
+  font-size: 1.3rem;
+  padding-bottom: 5rem;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 22rem;
+  margin: 22px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.card-para {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 1rem 0 1rem 0;
+  background: rgba(208, 241, 241, 0.199);
+}
+
+.card-text {
+  color: #2e2c2caf;
+  padding: 2rem 3rem;
+}
+
+.card h1 {
+  font-size: 75px;
+  padding: 75px 37px;
+}
+
+.purchase-btn {
+  background-color: #343a40;
+  padding: 0.8rem 2.5rem;
+  color: #fff;
+  border-radius: 25px;
+  border: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+/*--------------Download Section ---------------*/
+
+.download-section {
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+}
+
+.download-app {
+  color: #fff;
+}
+
+.download-app h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  padding-top: 4rem;
+}
+
+.download-para {
+  font-size: 1.5rem;
+  padding: 32px 90px;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.icon-wrapper {
+  margin-right: 4.2rem;
+}
+.icon-image {
+  margin-right: 15px;
+}
+
+.icon-image i {
+  font-size: 3rem;
+  margin-top: -11px;
+}
+
+.platform {
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.content-heading {
+  font-size: 2rem;
+  padding: 0;
+  color: #000;
+  margin: 0;
+  font-weight: 600;
+}
+
+.content-para {
+  font-size: 1rem;
+  padding: 0;
+  text-align: left;
+  color: #000;
+  font-weight: 600;
+}
+
+.icons-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 6rem;
+  padding: 0.5rem 2.2rem 0.2rem 2.2rem;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+/*------------Reader-------------*/
+.reader-section h1 {
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
+.team {
+  margin: 6rem 3rem;
+  justify-content: space-between;
+}
+
+.team-card {
+  width: calc(33.333% - 5rem);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.team-image {
+  width: 65%;
+  margin: 2rem auto;
+}
+
+.team-image img {
+  width: 60%;
+  border-radius: 90px;
+}
+
+.team-content {
+  padding: 1.25rem;
+}
+
+.team-content h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  text-transform: capitalize;
+}
+
+.team-content p {
+  color: #2e2c2caf;
+  padding: 0.5rem;
+}
+
+.card-anchor {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.text-black-50 {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.team-circle-image {
+  width: 100px !important;
+}
+
+/*-----------Footer---------*/
+
+footer {
+  padding: 8rem 7rem;
+  background-color: rgba(0, 0, 0, 0.815);
+  color: #fff;
+}
+
+footer p {
+  color: #6c757d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.footer-para {
+  margin-bottom: 40px;
+}
+
+.highlited-text {
+  color: #ff512f;
+}
+
+.footer-about,
+.newsletter {
+  flex: 0 0 41.666667%;
+  max-width: 0 0 41.666667%;
+  margin-right: 10px;
+}
+
+.input-group {
+  display: flex;
+  width: 70%;
+}
+
+.input-group input {
+  padding: 0.6rem 1rem;
+  flex: 1 1 auto;
+  background: #343a40 !important;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.input-group button {
+  width: 43px;
+  outline: none;
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+  border: none;
+}
+
+.input-group button i {
+  color: #495057;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.follow i {
+  color: #dd2476;
+  margin-right: 10px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    height: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 30px;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #dd2476, #ff512f);
+    top: 80px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    transition: all ease 2s;
+  }
+
+  .nav-link {
+    margin-top: 2rem;
+  }
+
+  .nav-link a {
+    font-size: 1.3rem;
+  }
+
+  .menu-link {
+    display: block;
+    margin-right: 38px;
+  }
+
+  .menu-link i {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .author {
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+  }
+  .author h1 {
+    font-size: 2rem;
+  }
+
+  .book-img {
+    width: 100%;
+  }
+
+  .book-img img {
+    width: 100%;
+  }
+
+  .author-image {
+    flex-basis: 100%;
+  }
+
+  .about-author {
+    flex-basis: 100%;
+  }
+
+  .panel {
+    position: initial;
+  }
+
+  .cover {
+    background-position: -25vmin -10vmin;
+  }
+
+  .cover .content {
+    padding-top: 74px;
+  }
+
+  .cover .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .box {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .box h1 {
+    font-size: 2rem;
+  }
+
+  .purchase h1 {
+    font-size: 2.2rem;
+    padding-top: 3rem;
+  }
+
+  .purchase p {
+    font-size: 3vmin;
+  }
+
+  .download-app h1 {
+    font-size: 1.5rem;
+  }
+
+  .icon-wrapper {
+    margin-bottom: 0.9rem;
+  }
+
+  .download-para {
+    font-size: 1rem;
+    padding: 15px 15px;
+  }
+
+  .reader-section h1 {
+    font-size: 1.4rem;
+  }
+
+  .content-heading {
+    font-size: 0.9rem;
+  }
+
+  .content-para {
+    font-size: 0.6rem;
+  }
+
+  .icon-image i {
+    font-size: 1.8rem;
+  }
+
+  .team-card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .card h1 {
+    font-size: 50px;
+  }
+
+  footer {
+    padding: 6rem 4rem;
+  }
+
+  .footer-about {
+    flex: 0 0 100%;
+  }
+
+  .newsletter {
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+  }
+
+  .input-group button {
+    width: 135px;
+  }
+}
